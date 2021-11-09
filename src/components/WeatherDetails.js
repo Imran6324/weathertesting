@@ -103,7 +103,8 @@ function WeatherDetails({
               </p>
             </div>
           </div>
-        </div>
+        </div> 
+        <h5 class = "Copyright">Copyright 2021-22 Created by <i>Imran</i></h5>
       </article>
     </>
   );

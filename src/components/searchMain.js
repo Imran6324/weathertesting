@@ -29,8 +29,7 @@ function SearchMain() {
         sunset,
       };
 
-      setTempInfo(myNewWeatherInfo);
-      // console.log(data);
+      setTempInfo(myNewWeatherInfo); 
     } catch (error) {
       console.log(error);
     }
