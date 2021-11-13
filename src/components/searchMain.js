@@ -8,7 +8,7 @@ function SearchMain() {
 
   const getWeatherInfo = async () => {
     try {
-      let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&units=metric&appid=f840f08444c59ce09a2fbb87f9bff214`;
+            let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&appid=8c779de34765d0f52634077f3df407ff`;
 
       let res = await fetch(url);
       let data = await res.json();
